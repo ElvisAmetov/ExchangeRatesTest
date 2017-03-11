@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		140185A21E72F2250047F959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185A11E72F2250047F959 /* main.m */; };
 		140185A51E72F2250047F959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185A41E72F2250047F959 /* AppDelegate.m */; };
-		140185A81E72F2250047F959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185A71E72F2250047F959 /* ViewController.m */; };
-		140185AB1E72F2260047F959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140185A91E72F2260047F959 /* Main.storyboard */; };
 		140185AD1E72F2260047F959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140185AC1E72F2260047F959 /* Assets.xcassets */; };
 		140185B01E72F2260047F959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140185AE1E72F2260047F959 /* LaunchScreen.storyboard */; };
+		140185C21E72F4B70047F959 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185C11E72F4B70047F959 /* Currency.m */; };
+		140185C61E72F59B0047F959 /* ExchangeRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185C51E72F59B0047F959 /* ExchangeRatesViewController.m */; };
+		140185C81E72F67F0047F959 /* ExchangeRatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140185C71E72F67F0047F959 /* ExchangeRatesViewController.xib */; };
+		140185CB1E72F71B0047F959 /* ExchangeRatesViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185CA1E72F71B0047F959 /* ExchangeRatesViewControllerVM.m */; };
+		140185D11E73095D0047F959 /* UITableViewCell+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185D01E73095D0047F959 /* UITableViewCell+Setup.m */; };
+		140185D71E730C460047F959 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185D61E730C460047F959 /* NetworkManager.m */; };
+		140185DB1E730C8B0047F959 /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185DA1E730C8B0047F959 /* AlertController.m */; };
+		140185E01E730FCA0047F959 /* ExchangeRatesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185DE1E730FCA0047F959 /* ExchangeRatesCell.m */; };
+		140185E11E730FCA0047F959 /* ExchangeRatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140185DF1E730FCA0047F959 /* ExchangeRatesCell.xib */; };
+		140185E41E730FED0047F959 /* ExchangeRatesCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 140185E31E730FED0047F959 /* ExchangeRatesCellVM.m */; };
+		141B59D61E73EFFD00BEB93A /* SHXMLParser+Convertation.m in Sources */ = {isa = PBXBuildFile; fileRef = 141B59D51E73EFFD00BEB93A /* SHXMLParser+Convertation.m */; };
+		141B59DC1E74037B00BEB93A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 141B59DB1E74037B00BEB93A /* Constants.m */; };
+		65F6975057283F4CFC24AE6D /* Pods_ExchangeRates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED61C36C4A032F7A00720D44 /* Pods_ExchangeRates.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,36 @@
 		140185A11E72F2250047F959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		140185A31E72F2250047F959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		140185A41E72F2250047F959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		140185A61E72F2250047F959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		140185A71E72F2250047F959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		140185AA1E72F2260047F959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		140185AC1E72F2260047F959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		140185AF1E72F2260047F959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		140185B11E72F2260047F959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140185C01E72F4B70047F959 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Currency.h; path = Models/Currency.h; sourceTree = "<group>"; };
+		140185C11E72F4B70047F959 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Currency.m; path = Models/Currency.m; sourceTree = "<group>"; };
+		140185C41E72F59B0047F959 /* ExchangeRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExchangeRatesViewController.h; path = ViewControllers/ExchangeRatesViewController/ExchangeRatesViewController.h; sourceTree = "<group>"; };
+		140185C51E72F59B0047F959 /* ExchangeRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExchangeRatesViewController.m; path = ViewControllers/ExchangeRatesViewController/ExchangeRatesViewController.m; sourceTree = "<group>"; };
+		140185C71E72F67F0047F959 /* ExchangeRatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExchangeRatesViewController.xib; path = ViewControllers/ExchangeRatesViewController/ExchangeRatesViewController.xib; sourceTree = "<group>"; };
+		140185C91E72F71B0047F959 /* ExchangeRatesViewControllerVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExchangeRatesViewControllerVM.h; path = ViewControllers/ExchangeRatesViewController/ExchangeRatesViewControllerVM.h; sourceTree = "<group>"; };
+		140185CA1E72F71B0047F959 /* ExchangeRatesViewControllerVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExchangeRatesViewControllerVM.m; path = ViewControllers/ExchangeRatesViewController/ExchangeRatesViewControllerVM.m; sourceTree = "<group>"; };
+		140185CF1E73095D0047F959 /* UITableViewCell+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+Setup.h"; path = "Categories/UITableViewCell+Setup.h"; sourceTree = "<group>"; };
+		140185D01E73095D0047F959 /* UITableViewCell+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+Setup.m"; path = "Categories/UITableViewCell+Setup.m"; sourceTree = "<group>"; };
+		140185D21E7309A50047F959 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		140185D51E730C460047F959 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = Controllers/Network/NetworkManager.h; sourceTree = "<group>"; };
+		140185D61E730C460047F959 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = Controllers/Network/NetworkManager.m; sourceTree = "<group>"; };
+		140185D91E730C8B0047F959 /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertController.h; path = CustomControls/AlertController.h; sourceTree = "<group>"; };
+		140185DA1E730C8B0047F959 /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertController.m; path = CustomControls/AlertController.m; sourceTree = "<group>"; };
+		140185DD1E730FCA0047F959 /* ExchangeRatesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExchangeRatesCell.h; path = ViewControllers/ExchangeRatesViewController/Cells/ExchangeRatesCell.h; sourceTree = "<group>"; };
+		140185DE1E730FCA0047F959 /* ExchangeRatesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExchangeRatesCell.m; path = ViewControllers/ExchangeRatesViewController/Cells/ExchangeRatesCell.m; sourceTree = "<group>"; };
+		140185DF1E730FCA0047F959 /* ExchangeRatesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExchangeRatesCell.xib; path = ViewControllers/ExchangeRatesViewController/Cells/ExchangeRatesCell.xib; sourceTree = "<group>"; };
+		140185E21E730FED0047F959 /* ExchangeRatesCellVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExchangeRatesCellVM.h; path = ViewControllers/ExchangeRatesViewController/Cells/ExchangeRatesCellVM.h; sourceTree = "<group>"; };
+		140185E31E730FED0047F959 /* ExchangeRatesCellVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExchangeRatesCellVM.m; path = ViewControllers/ExchangeRatesViewController/Cells/ExchangeRatesCellVM.m; sourceTree = "<group>"; };
+		141B59D41E73EFFD00BEB93A /* SHXMLParser+Convertation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SHXMLParser+Convertation.h"; path = "Categories/SHXMLParser+Convertation.h"; sourceTree = "<group>"; };
+		141B59D51E73EFFD00BEB93A /* SHXMLParser+Convertation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SHXMLParser+Convertation.m"; path = "Categories/SHXMLParser+Convertation.m"; sourceTree = "<group>"; };
+		141B59D81E73F82D00BEB93A /* Mappable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mappable.h; path = Models/Mappable.h; sourceTree = "<group>"; };
+		141B59DA1E74037B00BEB93A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		141B59DB1E74037B00BEB93A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A48FEE4E9A399C1C73CAD573 /* Pods-ExchangeRates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.release.xcconfig"; sourceTree = "<group>"; };
+		CAA9DC405CF58272A2CF46EB /* Pods-ExchangeRates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.debug.xcconfig"; sourceTree = "<group>"; };
+		ED61C36C4A032F7A00720D44 /* Pods_ExchangeRates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +68,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F6975057283F4CFC24AE6D /* Pods_ExchangeRates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135D23B4CFE7321624875012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED61C36C4A032F7A00720D44 /* Pods_ExchangeRates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		140185941E72F2250047F959 = {
 			isa = PBXGroup;
 			children = (
 				1401859F1E72F2250047F959 /* ExchangeRates */,
 				1401859E1E72F2250047F959 /* Products */,
+				6255524760F7B52A80CDD393 /* Pods */,
+				135D23B4CFE7321624875012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +106,13 @@
 			children = (
 				140185A31E72F2250047F959 /* AppDelegate.h */,
 				140185A41E72F2250047F959 /* AppDelegate.m */,
-				140185A61E72F2250047F959 /* ViewController.h */,
-				140185A71E72F2250047F959 /* ViewController.m */,
-				140185A91E72F2260047F959 /* Main.storyboard */,
+				140185D81E730C4C0047F959 /* CustomControls */,
+				140185CE1E73092D0047F959 /* Categories */,
+				140185B91E72F3AB0047F959 /* Controllers */,
+				140185B71E72F2480047F959 /* Models */,
+				140185B81E72F2590047F959 /* ViewControllers */,
+				141B59DA1E74037B00BEB93A /* Constants.h */,
+				141B59DB1E74037B00BEB93A /* Constants.m */,
 				140185AC1E72F2260047F959 /* Assets.xcassets */,
 				140185AE1E72F2260047F959 /* LaunchScreen.storyboard */,
 				140185B11E72F2260047F959 /* Info.plist */,
@@ -75,8 +125,98 @@
 			isa = PBXGroup;
 			children = (
 				140185A11E72F2250047F959 /* main.m */,
+				140185D21E7309A50047F959 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		140185B71E72F2480047F959 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				141B59D81E73F82D00BEB93A /* Mappable.h */,
+				140185C01E72F4B70047F959 /* Currency.h */,
+				140185C11E72F4B70047F959 /* Currency.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		140185B81E72F2590047F959 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				140185C31E72F56E0047F959 /* ExchangeRatesViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		140185B91E72F3AB0047F959 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				140185D41E730C180047F959 /* Network */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		140185C31E72F56E0047F959 /* ExchangeRatesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				140185DC1E730F9F0047F959 /* Cells */,
+				140185C41E72F59B0047F959 /* ExchangeRatesViewController.h */,
+				140185C51E72F59B0047F959 /* ExchangeRatesViewController.m */,
+				140185C71E72F67F0047F959 /* ExchangeRatesViewController.xib */,
+				140185C91E72F71B0047F959 /* ExchangeRatesViewControllerVM.h */,
+				140185CA1E72F71B0047F959 /* ExchangeRatesViewControllerVM.m */,
+			);
+			name = ExchangeRatesViewController;
+			sourceTree = "<group>";
+		};
+		140185CE1E73092D0047F959 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				140185CF1E73095D0047F959 /* UITableViewCell+Setup.h */,
+				140185D01E73095D0047F959 /* UITableViewCell+Setup.m */,
+				141B59D41E73EFFD00BEB93A /* SHXMLParser+Convertation.h */,
+				141B59D51E73EFFD00BEB93A /* SHXMLParser+Convertation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		140185D41E730C180047F959 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				140185D51E730C460047F959 /* NetworkManager.h */,
+				140185D61E730C460047F959 /* NetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		140185D81E730C4C0047F959 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				140185D91E730C8B0047F959 /* AlertController.h */,
+				140185DA1E730C8B0047F959 /* AlertController.m */,
+			);
+			name = CustomControls;
+			sourceTree = "<group>";
+		};
+		140185DC1E730F9F0047F959 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				140185DD1E730FCA0047F959 /* ExchangeRatesCell.h */,
+				140185DE1E730FCA0047F959 /* ExchangeRatesCell.m */,
+				140185DF1E730FCA0047F959 /* ExchangeRatesCell.xib */,
+				140185E21E730FED0047F959 /* ExchangeRatesCellVM.h */,
+				140185E31E730FED0047F959 /* ExchangeRatesCellVM.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6255524760F7B52A80CDD393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9DC405CF58272A2CF46EB /* Pods-ExchangeRates.debug.xcconfig */,
+				A48FEE4E9A399C1C73CAD573 /* Pods-ExchangeRates.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 140185B41E72F2260047F959 /* Build configuration list for PBXNativeTarget "ExchangeRates" */;
 			buildPhases = (
+				528601732FD89AAD7D5EAB13 /* [CP] Check Pods Manifest.lock */,
 				140185991E72F2250047F959 /* Sources */,
 				1401859A1E72F2250047F959 /* Frameworks */,
 				1401859B1E72F2250047F959 /* Resources */,
+				D28CF9DEB82192DDF3A089B6 /* [CP] Embed Pods Frameworks */,
+				7D2B675C34B99F1B1ECBBE5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,36 +280,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140185E11E730FCA0047F959 /* ExchangeRatesCell.xib in Resources */,
+				140185C81E72F67F0047F959 /* ExchangeRatesViewController.xib in Resources */,
 				140185B01E72F2260047F959 /* LaunchScreen.storyboard in Resources */,
 				140185AD1E72F2260047F959 /* Assets.xcassets in Resources */,
-				140185AB1E72F2260047F959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		528601732FD89AAD7D5EAB13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2B675C34B99F1B1ECBBE5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28CF9DEB82192DDF3A089B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		140185991E72F2250047F959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140185A81E72F2250047F959 /* ViewController.m in Sources */,
+				140185DB1E730C8B0047F959 /* AlertController.m in Sources */,
+				140185CB1E72F71B0047F959 /* ExchangeRatesViewControllerVM.m in Sources */,
+				140185D71E730C460047F959 /* NetworkManager.m in Sources */,
 				140185A51E72F2250047F959 /* AppDelegate.m in Sources */,
+				140185D11E73095D0047F959 /* UITableViewCell+Setup.m in Sources */,
+				140185E41E730FED0047F959 /* ExchangeRatesCellVM.m in Sources */,
 				140185A21E72F2250047F959 /* main.m in Sources */,
+				140185C21E72F4B70047F959 /* Currency.m in Sources */,
+				140185E01E730FCA0047F959 /* ExchangeRatesCell.m in Sources */,
+				141B59D61E73EFFD00BEB93A /* SHXMLParser+Convertation.m in Sources */,
+				140185C61E72F59B0047F959 /* ExchangeRatesViewController.m in Sources */,
+				141B59DC1E74037B00BEB93A /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		140185A91E72F2260047F959 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				140185AA1E72F2260047F959 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		140185AE1E72F2260047F959 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,8 +463,10 @@
 		};
 		140185B51E72F2260047F959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA9DC405CF58272A2CF46EB /* Pods-ExchangeRates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ExchangeRates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Elvis.ExchangeRates;
@@ -281,8 +476,10 @@
 		};
 		140185B61E72F2260047F959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48FEE4E9A399C1C73CAD573 /* Pods-ExchangeRates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ExchangeRates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Elvis.ExchangeRates;
@@ -309,6 +506,7 @@
 				140185B61E72F2260047F959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

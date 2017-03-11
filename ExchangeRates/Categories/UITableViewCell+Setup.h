@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UITableViewCell+Setup.h
 //  ExchangeRates
 //
 //  Created by Elvis on 3/10/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UITableViewCell (Setup)
 
+- (void)setupWithViewModel:(id)viewModel;
 
 @end
-
